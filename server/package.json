@@ -1,0 +1,24 @@
+{
+  "name": "MEAN-stack-app",
+  "description": "Full-Stack JavaScript with MongoDB, Express, AngularJS and Node.js",
+  "version": "0.0.0",
+  "author": "Denis Buymistrjuk",
+  "main": "server.js",
+  "dependencies": {
+    "async": "~1.5.*",
+    "body-parser": "~1.14.2",
+    "express": "~4.13.3",
+    "express-session": "~1.0.2",
+    "mongoose": "~4.3.4",
+    "lodash": "~3.10.1",
+    "nodemon": "~1.8.1",
+    "passport": "~0.3.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "~2.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
