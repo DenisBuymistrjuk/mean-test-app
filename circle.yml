@@ -1,0 +1,23 @@
+machine:
+  node:
+    version: 6.9.5
+
+general:
+  branches:
+    only:
+      - master
+      - develop
+
+dependencies:
+   post:
+     - npm install -g gulp
+
+deployment:
+ develop:
+   branch: [develop]
+   commands:
+     - bash -x deploy-dev.sh
+ production:
+   branch: [CircleCI, master]
+   commands:
+     - bash -x deploy.sh
