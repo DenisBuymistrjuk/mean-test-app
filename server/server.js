@@ -21,6 +21,8 @@ db.connection.once('open', function () {
 
 require('./app/routes')(router, app);
 
+// some additional test
+
 app.listen(config.port, config.host, function () {
 	console.info('Express server listening on %s:%d, in mode: %s', config.host, config.port, app.get('env'));
 });
